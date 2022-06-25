@@ -1,3 +1,5 @@
+
+//*version1
 function computerStore(input){
     let index = 0;
     let priceWithoutTaxes = input[index];
