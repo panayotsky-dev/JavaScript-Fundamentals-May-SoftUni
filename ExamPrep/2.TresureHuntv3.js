@@ -1,4 +1,4 @@
-//*version 3 // 80/100
+//*version 3 
 function tresureHunt(data){
 let state = data.shift().split(`|`);
 let index =0;
@@ -16,6 +16,11 @@ while(command != `Yohoho!`){
              break;
         case `Drop`: 
          let i = Number(tokens[0]);
+            if(i < 0 || i> state.length){
+            command=data[index];
+            index++;
+            continue;
+         }
         let element = state.splice(i, 1);
         state.push(element[0]);
         break;
