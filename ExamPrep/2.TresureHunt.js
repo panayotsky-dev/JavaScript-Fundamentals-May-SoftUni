@@ -1,4 +1,4 @@
-//*version 2
+//*version 2 // didn't get 100/100 score
 function tresureHunt(array){
 let withoutSplit = array.shift();
 let firstTressure = withoutSplit.split(`|`);
