@@ -30,7 +30,7 @@ let command = arrayTosTring.split(`,`);
                 
                 let drop = command[j].split(` `)
                 let dropNumber = drop.pop();
-                if(dropNumber >=0){                
+                if(dropNumber >=0 && dropNumber < firstTressure.length){                
                 let droppingItem = firstTressure[dropNumber];                
                 let dropItem = firstTressure.splice(Number(dropNumber),1);
                 firstTressure.push(droppingItem);
