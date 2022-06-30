@@ -45,7 +45,7 @@ function chatLogger(data){
         }
     }   
 }
-    
+console.log(newArr.join(`\n`))
 
 }
 chatLogger(["Chat Hello",
