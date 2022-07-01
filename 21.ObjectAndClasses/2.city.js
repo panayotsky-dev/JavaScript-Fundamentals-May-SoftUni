@@ -15,3 +15,10 @@ city({
     country: "Bulgaria",
     postCode: "4000"
 })
+//Version 2
+// function cityInfo(city){
+//     let entries = Object.entries(city);
+//     for(let [ key, value ] of entries){
+//         console.log(`${key} -> ${value}`);
+//     }
+// }
